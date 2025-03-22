@@ -11,7 +11,7 @@ text-align: center;
 }
 
 body {
-    background-image: url("//github.com/cinnamoon1410/repository-moodapp/raw/main/images/background1.png") no-repeat center center fixed;
+    ![Alt text] url("//github.com/cinnamoon1410/repository-moodapp/raw/main/images/background1.png") no-repeat center center fixed;
     background-size: cover;
 }
 
