@@ -1,0 +1,104 @@
+/* page2.css */
+
+#next-btn:hover {
+    background-color: rgb(183, 226, 243);
+}
+body {
+font-family: Lobster;
+background: url("images/background\ 1.png") no-repeat center center fixed;
+background-size: cover;
+font-size: 38px;
+  text-align: center;
+  padding: 20px;
+}
+
+h2 {
+    margin-bottom: 20px;
+
+}
+
+.option-btn {
+    display: block;
+    font-family: Lobster;
+    font-weight: bold;
+    margin: 30px auto;
+    padding: 30px;
+    background: rgb(255, 186, 246);
+    border: none;
+    cursor: pointer;
+    font-size: 20px;
+    width: 200px;
+    border-radius: 5px;
+}
+
+.option-btn:hover {
+    background-color: rgb(181, 219, 255);
+}
+
+
+
+/* Container pentru întregul conținut */
+.container {
+    background: rgba(0, 0, 0, 0.6);
+    padding: 20px;
+    border-radius: 10px;
+    display: inline-block;
+}
+
+/* Stilul titlului */
+h2 {
+    font-size: 38px;
+    margin-bottom: 20px;
+    color: rgb(0, 0, 0);
+}
+
+
+/* Efect de hover */
+.feeling-btn:hover {
+    background-color: #f0f0f0;
+    color: #ba5ace;
+    border-color: #ee8b93;
+    transform: scale(1.05);
+}
+
+/* Efect de activare */
+.feeling-btn:active {
+    transform: scale(0.98);
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+}
+
+/* Efect de focus */
+.feeling-btn:focus {
+    outline: none;
+    box-shadow: 0 0 0 3px rgba(134, 136, 138, 0.5);
+}
+
+.option-btn {
+    position: relative;
+    font-weight: bold;
+    color: rgb(0, 0, 0);
+    background-color: transparent;
+    background-image: url('images/frame.mood.png'); /* Imaginea ta pentru fundal */
+    background-size: contain; /* Imaginea va fi redimensionată să încapă în buton */
+    background-position: center; /* Centrează imaginea */
+    background-repeat: no-repeat;
+    border: 10px solid transparent;
+    padding: 30px 50px;
+    width: 200px;
+    height: 90px;
+    border: none;
+    border-radius: 12px;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+.option-btn span {
+    position: absolute;
+    z-index: 2;
+    font-size: 18px;
+    font-weight: bold;
+    color: white;
+    text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.7); /* Adaugă un umbra textului pentru a-l face mai vizibil */
+}
+

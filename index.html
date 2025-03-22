@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="ro">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mood Tracker</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h1> How are you feeling now? </h1>
+
+    <div class="mood-container">
+
+        <button class="mood-btn" data-mood="happy">
+            <img src="images/happy.png 1.png" alt="Happy" />
+            <span>Happy</span>
+        </button>
+        <button class="mood-btn" data-mood="neutral">
+            <img src="images/neutral.png 1.png" alt="Neutral" />
+            <span>Neutral</span>
+        </button>
+        <button class="mood-btn" data-mood="sad">
+            <img src="images/sad.png 1.png" alt="Sad" />
+            <span>Sad</span>
+        </button>
+
+    <div id="message"></div>
+
+    <button id="next-btn">Next</button>
+
+    <script src="script.js"></script>
+    <script>
+        let selectedMood = "";
+    document.querySelectorAll('.mood-btn').forEach(button => {
+        button.addEventListener('click', (event) => {
+            selectedMood = event.currentTarget.getAttribute('data-mood');
+            let message = "";
+
+            if (selectedMood === "happy") message = "Awesome!";
+            if (selectedMood === "neutral") message = "Don't overthink it!";
+            if (selectedMood === "sad") message = "Better days are coming!";
+
+            document.getElementById('message').textContent = message;
+
+            // Afișează butonul "Next"
+            document.getElementById('next-btn').style.display = "block";
+        });
+    });
+
+    // Redirecționează către a doua pagină când utilizatorul apasă "Next"
+    document.getElementById('next-btn').addEventListener('click', () => {
+        window.location.href = `page2.html?mood=${selectedMood}`;
+    });
+</script>
+
+<script>
+    if ("serviceWorker" in navigator) {
+        navigator.serviceWorker.register("service-worker.js")
+        .then(() => console.log("Service Worker Registered"))
+        .catch(error => console.error("Service Worker Registration Failed:", error));
+    }
+</script>
+
+</body>
+</html>

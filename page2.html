@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="ro">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Select Your Feeling</title>
+    <link rel="stylesheet" href="page2.css">
+</head>
+
+<body>
+
+    <h2>What best describes this feeling?</h2>
+    <div id="options"></div>
+
+    <script>
+        // Preluăm mood-ul din URL
+        const urlParams = new URLSearchParams(window.location.search);
+        const selectedMood = urlParams.get('mood');
+
+        let optionsContainer = document.getElementById("options");
+        let options = [];
+
+        if (selectedMood === "neutral") {
+            options = ["Peaceful", "Indifferent", "Overwhelmed"];
+        } else if (selectedMood === "happy") {
+            options = ["Confident", "Excited", "Hopeful"];
+        } else if (selectedMood === "sad") {
+            options = ["Anxious", "Lonely", "Frustrated"];
+        }
+
+        // Creăm butoanele pentru sentimente specifice
+        options.forEach(option => {
+            let btn = document.createElement("button");
+            btn.textContent = option;
+            btn.className = "option-btn";
+            btn.addEventListener("click", () => {
+                alert(`You selected: ${option}`);
+            });
+            optionsContainer.appendChild(btn);
+        });
+    </script>
+
+</body>
+</html>

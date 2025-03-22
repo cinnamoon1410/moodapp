@@ -1,0 +1,133 @@
+
+
+body {
+color: #000;
+font-family: Lobster;
+font-size: 38px;
+font-style: normal;
+font-weight: 150;
+line-height: normal;
+text-align: center;
+}
+
+body {
+    background: url("images/background\ 1.png") no-repeat center center fixed;
+    background-size: cover;
+}
+
+h1 {
+    margin-top: 40px;
+}
+.mood-container {
+    margin-top: 90px;
+}
+
+.mood-btn {
+color: #000;
+font-family: Lobster;
+font-size: 48px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+}
+
+.mood-btn:hover {
+    transform: scale(1.2);
+}
+
+#message {
+    margin-top: 40px;
+    font-size: 40px;
+    font-weight: bold;
+}
+.mood-btn img {
+    width: 300px; 
+    height: auto;
+    margin-top: 40px;
+    font-size: 40px;
+    font-weight: bold;   
+}
+
+.mood-btn img {
+    background-color: rgb(205, 249, 255); 
+}
+.layout {
+width: 511px;
+height: 511px;
+aspect-ratio: 1/1;
+}
+.background {
+background: url("images/sad.png\ 1.png") rgb(176, 246, 255) 50% / cover no-repeat;
+}
+.layout {
+    width: 511px;
+    height: 511px;
+    aspect-ratio: 1/1;
+    }
+    .background {
+    background: url("images/neutral.png\ 1.png") rgb(175, 243, 252) 50% / cover no-repeat;
+    }
+    .layout {
+        width: 511px;
+        height: 511px;
+        aspect-ratio: 1/1;
+        }
+        .background {
+        background: url("images/happy.png\ 1.png") rgb(174, 241, 253) 50% / cover no-repeat;
+        }
+
+        .mood-btn {
+    display: inline-flex;
+    flex-direction: column; 
+    align-items: center;
+    justify-content: center; /* Centrează conținutul în buton */
+    padding: 30px 45px; /* Spațiu în jurul butonului */
+    border: 2px solid black; 
+    background: rgb(255, 254, 255); 
+    cursor: pointer;
+    width: 300px; /* Ajustează lățimea */
+    height: auto;                
+    text-align: center;    
+    
+        }
+        
+        .mood-btn img {
+            width: 250px; /* Dimensiunea imaginii */
+            height: auto;
+     margin-bottom: 20px
+     
+        }
+        
+        .mood-btn span {
+            margin-top: 10px; /* Spațiu între imagine și text */
+            font-family: Lobster;
+            font-size: 30px;
+            color: rgb(4, 32, 51);
+            font-weight: bold;          /* Face textul mai gros */
+            background-color: rgb(255, 188, 227);   /* Fundal galben pentru highlight */
+            padding: 2px 5px;           /* Spațiu în jurul textului */
+            border-radius: 5px;        
+        }
+        #next-btn {
+            display: none; /* Inițial ascuns */
+            font-family: Lobster;
+            margin-top: 20px;
+            padding: 10px;
+            font-size: 20px;
+            font-weight: bold;
+            background: rgb(255, 182, 231);
+            color: black;
+            border: 2px solid gray;
+            border-radius: 10px;
+            cursor: pointer;
+            text-align: center;
+            width: 120px; /* Ajustează dimensiunea dacă e necesar */
+        
+        display: block;
+    margin-left: auto;
+    margin-right: auto;
+   }
+        #next-btn:hover {
+            background-color: rgb(183, 226, 243);
+        }
+        
