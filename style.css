@@ -11,7 +11,7 @@ text-align: center;
 }
 
 body {
-    background-image: url("//github.com/cinnamoon1410/repository-moodapp/raw/main/images/background\ 1.png") no-repeat center center fixed;
+    background-image: url('../images/background\ 1.png") no-repeat center center fixed;
     background-size: cover;
 }
 
