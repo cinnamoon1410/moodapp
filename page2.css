@@ -5,7 +5,7 @@
 }
 body {
 font-family: Lobster;
- background: url("//github.com/cinnamoon1410/repository-moodapp/raw/main/images/background1.png") no-repeat center center fixed;
+ background: url("https://github.com/cinnamoon1410/moodapp/blob/main/images/background1.png?raw=true") no-repeat center center fixed;
 background-size: cover;
 font-size: 38px;
   text-align: center;
