@@ -11,7 +11,7 @@ text-align: center;
 }
 
 body {
-    background-image: url("images/background1.png") no-repeat center center fixed;
+    background-image: url("//github.com/cinnamoon1410/repository-moodapp/raw/main/images/background1.png") no-repeat center center fixed;
     background-size: cover;
 }
 
@@ -57,7 +57,7 @@ height: 511px;
 aspect-ratio: 1/1;
 }
 .background {
-background: url("//github.com/cinnamoon1410/repository-moodapp/raw/main/images/sad.png\ 1.png") rgb(176, 246, 255) 50% / cover no-repeat;
+background: url("//github.com/cinnamoon1410/repository-moodapp/raw/main/images/sad.png1.png") rgb(176, 246, 255) 50% / cover no-repeat;
 }
 .layout {
     width: 511px;
@@ -65,7 +65,7 @@ background: url("//github.com/cinnamoon1410/repository-moodapp/raw/main/images/s
     aspect-ratio: 1/1;
     }
     .background {
-    background: url("//github.com/cinnamoon1410/repository-moodapp/raw/main/images/neutral.png\ 1.png") rgb(175, 243, 252) 50% / cover no-repeat;
+    background: url("//github.com/cinnamoon1410/repository-moodapp/raw/main/images/neutral.png1.png") rgb(175, 243, 252) 50% / cover no-repeat;
     }
     .layout {
         width: 511px;
@@ -73,7 +73,7 @@ background: url("//github.com/cinnamoon1410/repository-moodapp/raw/main/images/s
         aspect-ratio: 1/1;
         }
         .background {
-        background: url("//github.com/cinnamoon1410/repository-moodapp/raw/main/images/happy.png\ 1.png") rgb(174, 241, 253) 50% / cover no-repeat;
+        background: url("//github.com/cinnamoon1410/repository-moodapp/raw/main/images/happy.png1.png") rgb(174, 241, 253) 50% / cover no-repeat;
         }
 
         .mood-btn {
