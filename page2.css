@@ -5,7 +5,7 @@
 }
 body {
 font-family: Lobster;
-background: url("images/background\ 1.png") no-repeat center center fixed;
+background: url("//github.com/cinnamoon1410/repository-moodapp/raw/main/images/background\ 1.png") no-repeat center center fixed;
 background-size: cover;
 font-size: 38px;
   text-align: center;
@@ -78,7 +78,7 @@ h2 {
     font-weight: bold;
     color: rgb(0, 0, 0);
     background-color: transparent;
-    background-image: url('images/frame.mood.png'); /* Imaginea ta pentru fundal */
+    background-image: url('//github.com/cinnamoon1410/repository-moodapp/raw/main/images/frame.mood.png'); /* Imaginea ta pentru fundal */
     background-size: contain; /* Imaginea va fi redimensionată să încapă în buton */
     background-position: center; /* Centrează imaginea */
     background-repeat: no-repeat;
